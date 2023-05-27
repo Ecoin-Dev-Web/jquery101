@@ -43,7 +43,7 @@ $(document).ready(function () {
 		$(".box").stop()
 
 	})*/
-
+/*
 	$(document).on('click','#start',function () {
 		$(".box").animate({
 			marginLeft : '+=50px',
@@ -60,8 +60,26 @@ $(document).ready(function () {
 	$(document).on('click','#ht',function () {
 		$(".box").html("<i>Ecoin 2025</i>")
 
+	})*/
+
+	$(document).on('click','#append',function () {
+		$("h3").append("<i>Ecoin 2025</i><h5 class='c'>Welcom</h5>")
+
 	})
 
+	$(document).on('click','#appendto',function () {
+		$("h3").appendTo("p")
+
+	})
+
+
+		$(document).on('click','#css2',function () {
+		$(".box").css({
+			backgroundColor : 'red',
+			width : '100px'
+		})
+
+	})
 
 
 })

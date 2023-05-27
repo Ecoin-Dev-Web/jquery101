@@ -8,7 +8,7 @@
 	width: 350px;
 	height: 350px;
 	background-color: blue;
-	position: absolute;
+	/* position: absolute; */
 	text-align: center;
 	font-size: 48px;
 	line-height: 350px;
@@ -24,4 +24,9 @@ button{
 	text-align: center;
 	font-weight: bold;
 	font-size: 18px;
+}
+
+
+.c {
+	color: red;
 }

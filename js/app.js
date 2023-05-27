@@ -52,4 +52,16 @@ $(document).ready(function () {
 
 	})
 
+	$(document).on('click','#txt',function () {
+		$(".box").text("Ecoin 2023")
+
+	})
+
+	$(document).on('click','#ht',function () {
+		$(".box").html("<i>Ecoin 2025</i>")
+
+	})
+
+
+
 })

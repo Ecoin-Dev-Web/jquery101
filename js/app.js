@@ -18,7 +18,38 @@ $(document).ready(function () {
 		$(".box").toggle(5000).delay(2000).slideToggle(5000)
 	})*/
 
-	$(document).on('click','#start',function () {
+/*	$(document).on('click','#start',function () {
 		$(".box").toggle(5000).delay(2000).slideToggle(5000)
+
 	})
+*/
+
+/*	$(document).on('mousemove','.box',function () {
+		$(".box").fadeTo(2000,.2)
+		
+	})*/
+/*
+	$(document).on('click','#start',function () {
+		$(".box").animate({
+			width : '600px',
+			height : '150px',
+			left:"150px",
+			top:"200px",
+		},5000)
+
+	})
+
+	$(document).on('click','#stop',function () {
+		$(".box").stop()
+
+	})*/
+
+	$(document).on('click','#start',function () {
+		$(".box").animate({
+			marginLeft : '+=50px',
+			marginTop : '+=50px',
+		},1000)
+
+	})
+
 })

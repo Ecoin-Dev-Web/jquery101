@@ -19,6 +19,7 @@ $(document).ready(function() {
                     var opt = $('<option>'); 
                       opt.val(id_com);
                       opt.text(commune);
+                      $("#commune").append(opt)
       });
 	})
 });

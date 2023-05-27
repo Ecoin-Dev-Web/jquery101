@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function() {
 	$(".add").click(function() {
 		$(".remove").removeAttr('disabled')//$("ul li:last-child").after('<li>jQuery</li>')
 		$("ul li").last().after('<li>jQuery</li>')
@@ -17,4 +17,5 @@ jQuery(document).ready(function($) {
 		
 
 		
+	});
 	});
